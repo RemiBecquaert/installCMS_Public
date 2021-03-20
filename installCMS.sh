@@ -34,7 +34,7 @@ then
 			wget -O Joomla.zip https://github.com/AFUJ/joomla-cms-fr/releases/download/3.9.25/Joomla_3.9.25-Stable-Full_Package_French_v1.zip > /dev/null
 			unzip Joomla.zip > /dev/null
 			chown -R www-data:www-data /var/www/
-			rm Joomla_3915-Stable-Full_Package_French_v1.zip
+			rm Joomla.zip
 			echo "**********"
 			echo "Joomla is now ready, enjoy !"
 			echo "To see your Joomla website, type your IP address on the navigator."
