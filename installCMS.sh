@@ -5,9 +5,9 @@ then
 	then
 		echo "*****Welcome to the web service and CMS installation script by BECQUAERT Remi*****"
 		echo "System will be now updated and upgraded..."
-		apt-get update > /dev/null
+		apt-get update -y > /dev/null
 		echo "Update conpleted sucessfully."
-		apt-get upgrade > /dev/null
+		apt-get upgrade -y > /dev/null
 		echo "Upgrade completed successfully."
 		echo "Installing all basics for web servicing..."
 		apt-get install apache2 unzip php php-xml php-mysql mysql-server -y > /dev/null
